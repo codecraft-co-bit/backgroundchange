@@ -1,0 +1,35 @@
+/* App.css */
+
+/* Center the content vertically and horizontally */
+.App {
+  height: 100vh;
+  margin-left: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: background-color 0.5s ease;
+}
+
+/* Container for content */
+.container {
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Style for the button */
+.color-btn {
+  font-size: 18px;
+  padding: 10px 20px;
+  border:solid green;
+  background-color: #724caf;
+  color: white;
+  cursor: pointer;
+  border-radius: 40px;
+  transition: background-color 0.3s;
+}
+
+.color-btn:hover {
+  background-color: #45a049;
+}
